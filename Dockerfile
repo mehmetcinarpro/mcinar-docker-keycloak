@@ -1,2 +1,4 @@
-FROM quay.io/keycloak/keycloak:16.1.1
-EXPOSE 8080
+FROM quay.io/keycloak/keycloak:latest
+
+ENV KEYCLOAK_USER=admin 
+ENV KEYCLOAK_PASSWORD=admin
